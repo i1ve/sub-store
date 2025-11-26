@@ -1,0 +1,93 @@
+name: Build meta‑rule‑set
+
+# 触发方式：每日定时、push 到 main、手动触发
+on:
+  schedule:
+    - cron: '0 5 * * *'   # 每天 03:00 UTC
+  push:
+    branches: [ main ]
+  workflow_dispatch: {}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   # 需要写权限才能 push 生成的文件
+
+    steps:
+      # -------------------------------------------------
+      # 1️⃣ 拉取本仓库代码（只需要本仓库）
+      # -------------------------------------------------
+      - name: Checkout this repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # -------------------------------------------------
+      # 2️⃣ 下载最新的 geosite（dlc.dat）和 geoip.dat
+      # -------------------------------------------------
+      - name: Download latest dlc.dat (geosite)
+        run: |
+          curl -L -o dlc.dat \
+            https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat
+
+      - name: Download latest geoip.dat
+        run: |
+          curl -L -o geoip.dat \
+            https://github.com/v2fly/geoip/releases/latest/download/geoip.dat
+
+      # -------------------------------------------------
+      # 3️⃣ Checkout meta‑rules‑converter 并编译
+      # -------------------------------------------------
+      - name: Checkout meta‑rules‑converter
+        uses: actions/checkout@v4
+        with:
+          repository: MetaCubeX/meta-rules-converter
+          path: converter
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.22'
+
+      - name: Build converter binary
+        working-directory: converter
+        run: go build -o converter .   # 在根目录直接编译
+
+      # -------------------------------------------------
+      # 4️⃣ 创建输出目录（只保留 geosite 与 geoip）
+      # -------------------------------------------------
+      - name: Create output folders
+        run: |
+          mkdir -p meta-rule/geo/geosite
+          mkdir -p meta-rule/geo/geoip
+
+      # -------------------------------------------------
+      # 5️⃣ 转换为 meta‑rule（省略 -t 参数 → 默认 meta‑rule）
+      # -------------------------------------------------
+      - name: Convert geosite → meta‑rule
+        env:
+          CONV: ${{ github.workspace }}/converter/converter
+        run: |
+          $CONV geosite -f dlc.dat -o meta-rule/geo/geosite
+
+      - name: Convert geoip → meta‑rule
+        env:
+          CONV: ${{ github.workspace }}/converter/converter
+        run: |
+          $CONV geoip -f geoip.dat -o meta-rule/geo/geoip
+
+      # -------------------------------------------------
+      # 6️⃣ 提交并推送生成的 meta‑rule（仅在有改动时）
+      # -------------------------------------------------
+      - name: Commit generated meta‑rule‑set
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add meta-rule/
+          if ! git diff --cached --quiet; then
+            git commit -m "🤖 Update meta‑rule‑set (auto)"
+            git push
+          else
+            echo "No changes, skip commit."
+          fi
