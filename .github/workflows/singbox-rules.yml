@@ -1,97 +1,69 @@
-name: Build sing-box rule‑set
+name: Build sing‑box rule‑set
 
 on:
   schedule:
-    - cron: '0 3 * * *'   # 每天 03:00 UTC 自动执行
-  push:
-    branches: [ main ]    # 手动推送 main 分支时也会触发
-  workflow_dispatch: {}    # 允许在 UI 手动触发
+    - cron: '0 3 * * *'   # 每天 03:00 UTC
+  workflow_dispatch:
 
 jobs:
-  build-rule-set:
+  build:
     runs-on: ubuntu-latest
     permissions:
-      contents: write   # 需要写权限才能 push
+      contents: write
 
     steps:
-      # 1️⃣ Checkout 本仓库
-      - name: Checkout repository
+      # 1️⃣ 拉取本仓库代码（只需要本仓库）
+      - name: Checkout this repo
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0   # 完整历史，后面需要 git commit
+          fetch-depth: 0
 
-      # 2️⃣ Checkout v2fly/domain-list-community（只需要 data）
-      - name: Checkout domain‑list‑community
-        uses: actions/checkout@v4
-        with:
-          repository: v2fly/domain-list-community
-          path: domain-list-community
-          ref: refs/tags/latest   # 使用最新 Release（GitHub 会自动指向最新 tag）
+      # 2️⃣ 下载最新的 geosite（dlc.dat）和 geoip.dat
+      - name: Download latest dlc.dat (geosite)
+        run: |
+          curl -L -o geosite.dat \
+            https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat
 
-      # 3️⃣ 下载官方 geoip.dat（因为 domain‑list‑community 不提供）
-      - name: Download geoip.dat
+      - name: Download latest geoip.dat
         run: |
           curl -L -o geoip.dat \
             https://github.com/v2fly/geoip/releases/latest/download/geoip.dat
 
-      # 4️⃣ 下载并准备 geosite.dat（实际为 dlc.dat）
-      - name: Prepare geosite.dat
-        run: |
-          cp domain-list-community/dlc.dat geosite.dat
-
-      # 5️⃣ Checkout meta‑rules‑converter
+      # 3️⃣ Checkout meta‑rules‑converter 并编译
       - name: Checkout meta‑rules‑converter
         uses: actions/checkout@v4
         with:
           repository: MetaCubeX/meta-rules-converter
-          path: meta-rules-converter
+          path: converter
 
-      # 6️⃣ Setup Go 环境并编译 converter
       - name: Setup Go
         uses: actions/setup-go@v5
         with:
-          go-version: '1.22'   # 兼容最新 Go 版本
+          go-version: '1.22'
 
       - name: Build converter
-        working-directory: meta-rules-converter
-        run: |
-          go build -o converter ./cmd/converter
+        working-directory: converter
+        run: go build -o converter ./cmd/converter
 
-      # 7️⃣ 执行转换（生成 sing‑box rule‑set）
-      - name: Convert to sing‑box rule‑set
+      # 4️⃣ 转换为 sing‑box rule‑set
+      - name: Convert to sing‑box format
         env:
-          CONVERTER: ${{ github.workspace }}/meta-rules-converter/converter
+          CONV: ${{ github.workspace }}/converter/converter
         run: |
           mkdir -p sing-rule/geo/geosite
           mkdir -p sing-rule/geo/geoip
-          $CONVERTER geosite -f ${{ github.workspace }}/geosite.dat \
+          $CONV geosite -f ${{ github.workspace }}/geosite.dat \
             -o ${{ github.workspace }}/sing-rule/geo/geosite -t sing-box
-          $CONVERTER geoip -f ${{ github.workspace }}/geoip.dat \
+          $CONV geoip -f ${{ github.workspace }}/geoip.dat \
             -o ${{ github.workspace }}/sing-rule/geo/geoip -t sing-box
-          # 如需 asn，可自行下载 GeoLite2‑ASN.mmdb 并执行：
-          # $CONVERTER asn -f GeoLite2-ASN.mmdb -o sing-rule/asn -t sing-box
 
-      # 8️⃣ Commit & push 生成的 rule‑set
-      - name: Commit generated rule‑set
+      # 5️⃣ 提交并推送生成的 rule‑set
+      - name: Commit & push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add sing-rule/
-          if git diff --cached --quiet; then
-            echo "No changes, skip commit."
-          else
-            git commit -m "🤖 Update sing-box rule‑set (auto)"
+          if ! git diff --cached --quiet; then
+            git commit -m "🤖 Update sing‑box rule‑set (auto)"
             git push
           fi
-
-      # 9️⃣（可选）创建 Release 并上传资产
-      - name: Create Release
-        if: github.ref == 'refs/heads/main'
-        uses: softprops/action-gh-release@v2
-        with:
-          tag_name: "sing-rule-$(date +%Y%m%d%H%M)"
-          name: "sing‑box rule‑set $(date +%Y-%m-%d %H:%M)"
-          body: "自动生成的 sing‑box geosite / geoip rule‑set，来源于 v2fly/domain‑list‑community 与官方 geoip。"
-          files: |
-            sing-rule/geo/geosite/*
-            sing-rule/geo/geoip/*
