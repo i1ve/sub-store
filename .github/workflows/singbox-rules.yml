@@ -24,11 +24,6 @@ jobs:
           curl -L -o geosite.dat \
             https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat
 
-      - name: Download latest geoip.dat
-        run: |
-          curl -L -o geoip.dat \
-            https://github.com/v2fly/geoip/releases/latest/download/geoip.dat
-
       # 3️⃣ Checkout meta‑rules‑converter 并编译
       - name: Checkout meta‑rules‑converter
         uses: actions/checkout@v4
@@ -51,11 +46,8 @@ jobs:
           CONV: ${{ github.workspace }}/converter/converter
         run: |
           mkdir -p sing-rule/geo/geosite
-          mkdir -p sing-rule/geo/geoip
           $CONV geosite -f ${{ github.workspace }}/geosite.dat \
             -o ${{ github.workspace }}/sing-rule/geo/geosite -t sing-box
-          $CONV geoip -f ${{ github.workspace }}/geoip.dat \
-            -o ${{ github.workspace }}/sing-rule/geo/geoip -t sing-box
 
       # 5️⃣ 提交并推送生成的 rule‑set
       - name: Commit & push
