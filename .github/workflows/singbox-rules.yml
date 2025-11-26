@@ -1,6 +1,5 @@
 name: Build sing‑box rule‑set
 
-# 触发方式：每日定时、push 到 main、手动触发
 on:
   schedule:
     - cron: '0 3 * * *'   # 每天 03:00 UTC
@@ -12,21 +11,17 @@ jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: write   # 需要写权限才能 push
+      contents: write
 
     steps:
-      # -------------------------------------------------
-      # 1️⃣ 拉取本仓库代码（只需要本仓库）
-      # -------------------------------------------------
+      # 1️⃣ 拉取本仓库代码
       - name: Checkout this repo
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      # -------------------------------------------------
-      # 2️⃣ 下载最新的 geosite（dlc.dat）和 geoip.dat
-      # -------------------------------------------------
-      - name: Download latest dlc.dat (geosite)
+      # 2️⃣ 下载最新的 dlc.dat（geosite）和 geoip.dat
+      - name: Download latest dlc.dat
         run: |
           curl -L -o dlc.dat \
             https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat
@@ -36,9 +31,7 @@ jobs:
           curl -L -o geoip.dat \
             https://github.com/v2fly/geoip/releases/latest/download/geoip.dat
 
-      # -------------------------------------------------
-      # 3️⃣ Checkout meta‑rules‑converter 并编译
-      # -------------------------------------------------
+      # 3️⃣ Checkout 并编译 meta‑rules‑converter
       - name: Checkout meta‑rules‑converter
         uses: actions/checkout@v4
         with:
@@ -48,33 +41,39 @@ jobs:
       - name: Setup Go
         uses: actions/setup-go@v5
         with:
-          go-version: '1.22'   # 当前稳定版
+          go-version: '1.22'
 
       - name: Build converter binary
         working-directory: converter
-        run: |
-          go build -o converter .   # 直接在根目录编译
+        run: go build -o converter .   # 直接在根目录编译
 
-      # -------------------------------------------------
-      # 4️⃣ 执行转换（生成 sing‑box rule‑set）
-      # -------------------------------------------------
-      - name: Convert geosite → sing‑box
-        env:
-          CONV: ${{ github.workspace }}/converter/converter
+      # 4️⃣ 创建输出目录
+      - name: Create output folders
         run: |
           mkdir -p sing-rule/geo/geosite
-          $CONV geosite -in dlc.dat -out sing-box -outDir ./sing-rule/geo/geosite
+          mkdir -p sing-rule/geo/geoip
 
-      - name: Convert geoip → sing‑box
+      # 5️⃣ Convert geosite → sing‑box
+      - name: Convert geosite to sing‑box
         env:
           CONV: ${{ github.workspace }}/converter/converter
         run: |
-          mkdir -p sing-rule/geo/geoip
-          $CONV geoiP -in geoip.dat -out sing-box -outDir ./sing-rule/geo/geoip
+          $CONV geosite \
+            -f dlc.dat \
+            -o sing-rule/geo/geosite \
+            -t sing-box
 
-      # -------------------------------------------------
-      # 5️⃣ 提交并推送生成的 rule‑set（如果有改动）
-      # -------------------------------------------------
+      # 6️⃣ Convert geoip → sing‑box
+      - name: Convert geoip to sing‑box
+        env:
+          CONV: ${{ github.workspace }}/converter/converter
+        run: |
+          $CONV geoip \
+            -f geoip.dat \
+            -o sing-rule/geo/geoip \
+            -t sing-box
+
+      # 7️⃣ Commit & push 生成的 rule‑set（仅在有改动时）
       - name: Commit generated rule‑set
         run: |
           git config user.name "github-actions[bot]"
@@ -86,18 +85,3 @@ jobs:
           else
             echo "No changes, skip commit."
           fi
-
-      # -------------------------------------------------
-      # 6️⃣（可选）发布 Release 并上传资产
-      # -------------------------------------------------
-      - name: Create Release (optional)
-        if: github.ref == 'refs/heads/main'
-        uses: softprops/action-gh-release@v2
-        with:
-          tag_name: "sing-rule-$(date +%Y%m%d%H%M)"
-          name: "sing‑box rule‑set $(date +%Y-%m-%d %H:%M)"
-          body: |
-            自动生成的 sing‑box geosite / geoip rule‑set，来源于 v2fly/domain‑list‑community 与官方 geoip。
-          files: |
-            sing-rule/geo/geosite/*
-            sing-rule/geo/geoip/*
