@@ -2,9 +2,14 @@
   "version": 2,
   "rules": [
     {
+      "domain": [
+        "ntdofifreepc-tgc.cdn.hinet.net",
+        "ntdofifreevcpc-tgc.cdn.hinet.net"
+      ],
       "domain_suffix": [
         "litv.tv",
-        "litvfreepc.akamaized.net"
+        "litvfreepc.akamaized.net",
+        "ofiii.com"
       ]
     }
   ]
