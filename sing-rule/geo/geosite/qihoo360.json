@@ -3,9 +3,6 @@
   "rules": [
     {
       "domain_suffix": [
-        "75.team",
-        "75team.com",
-        "baomitu.com",
         "fenxi.com",
         "lianmeng.360.cn",
         "mediav.com",
@@ -68,6 +65,7 @@
         "360zqaq.com",
         "anquanke.com",
         "appjiagu.com",
+        "baomitu.com",
         "dhsvc.cn",
         "haoso.com",
         "haosou.com",
