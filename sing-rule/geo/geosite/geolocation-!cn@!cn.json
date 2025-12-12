@@ -4,6 +4,10 @@
     {
       "domain": [
         "p16-tiktokcdn-com.akamaized.net",
+        "roovza-launches.appsflyersdk.com",
+        "roovza.inapps.appsflyersdk.com",
+        "roovza.launches.appsflyersdk.com",
+        "roovza.skadsdk.appsflyersdk.com",
         "alt1-mtalk.google.com",
         "alt2-mtalk.google.com",
         "alt3-mtalk.google.com",
@@ -13,10 +17,12 @@
         "mtalk.google.com"
       ],
       "domain_suffix": [
+        "bytedapm.com",
         "byteoversea.com",
         "muscdn.com",
         "musical.ly",
         "tik-tokapi.com",
+        "tiktok-minis.com",
         "tiktok-row.net",
         "tiktok.com",
         "tiktokcdn-eu.com",

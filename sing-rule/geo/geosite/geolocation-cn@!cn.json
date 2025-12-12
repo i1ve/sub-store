@@ -5,6 +5,10 @@
       "domain": [
         "upos-hz-mirrorakam.akamaized.net",
         "p16-tiktokcdn-com.akamaized.net",
+        "roovza-launches.appsflyersdk.com",
+        "roovza.inapps.appsflyersdk.com",
+        "roovza.launches.appsflyersdk.com",
+        "roovza.skadsdk.appsflyersdk.com",
         "bytedance.map.fastly.net",
         "community.oneplus.com",
         "wetv.qq.com"
@@ -129,10 +133,12 @@
         "alipaymo.com",
         "tmall.ru",
         "fliggy.hk",
+        "bytedapm.com",
         "byteoversea.com",
         "muscdn.com",
         "musical.ly",
         "tik-tokapi.com",
+        "tiktok-minis.com",
         "tiktok-row.net",
         "tiktok.com",
         "tiktokcdn-eu.com",
