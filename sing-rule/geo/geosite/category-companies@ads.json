@@ -4,7 +4,6 @@
     {
       "domain": [
         "analytics.google.com",
-        "fundingchoicesmessages.google.com",
         "sentry.hetzner.company"
       ],
       "domain_suffix": [

@@ -8,8 +8,9 @@
         "browser-intake-datadoghq.com",
         "disney.my.sentry.io",
         "o4504926511693824.ingest.sentry.io",
+        "ad-channel.diwodiwo.xyz",
+        "ad-display.diwodiwo.xyz",
         "analytics.google.com",
-        "fundingchoicesmessages.google.com",
         "sentry.hetzner.company"
       ],
       "domain_suffix": [
@@ -31,8 +32,6 @@
         "graph.instagram.com",
         "graph-fallback.instagram.com",
         "ads-twitter.com",
-        "ad-channel.diwodiwo.xyz",
-        "ad-display.diwodiwo.xyz",
         "collector.xhamster.com",
         "collector.github.com",
         "copilot-telemetry.githubusercontent.com",
