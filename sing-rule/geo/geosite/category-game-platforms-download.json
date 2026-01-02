@@ -494,7 +494,10 @@
         "steam.ru.qtlglb.com",
         "edge.steam-dns.top.comcast.net"
       ],
-      "domain_suffix": "egdownload.fastly-edge.com"
+      "domain_suffix": [
+        "egdownload.fastly-edge.com",
+        "dl.playstation.net"
+      ]
     }
   ]
 }
