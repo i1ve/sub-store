@@ -3,10 +3,10 @@
   "rules": [
     {
       "domain_suffix": [
-        "crash2.zhihu.com",
-        "zhihu-web-analytics.zhihu.com",
         "zhihu.com",
-        "zhimg.com"
+        "zhimg.com",
+        "crash2.zhihu.com",
+        "zhihu-web-analytics.zhihu.com"
       ]
     }
   ]
