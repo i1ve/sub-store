@@ -389,6 +389,7 @@
         "cdn.pocoiq.cn",
         "oct.pocoiq.cn",
         "ads.pubmatic.com",
+        "c.sayhi.360.cn",
         "fenxi.360.cn",
         "fenxi.com",
         "lianmeng.360.cn",
@@ -475,6 +476,7 @@
         "ad.browser.qq.com",
         "ad.qq.com",
         "ad.qun.qq.com",
+        "ad.tencentmusic.com",
         "ad.weixin.qq.com",
         "adfilter.imtt.qq.com",
         "adnet.qq.com",
@@ -516,6 +518,7 @@
         "push.qq.com",
         "qqdata.ab.qq.com",
         "report.qqweb.qq.com",
+        "report.tencentmusic.com",
         "rmonitor.qq.com",
         "sngmta.qq.com",
         "stat.y.qq.com",
@@ -669,7 +672,9 @@
         "zhugeapi.net",
         "zhugeio.com",
         "atrace.chelaile.net.cn",
-        "logs.chelaile.net.cn"
+        "logs.chelaile.net.cn",
+        "analytics.umetrip.com",
+        "sensors.umetrip.com.cn"
       ],
       "domain_regex": [
         "^adservice\\.google\\.([a-z]{2}|com?)(\\.[a-z]{2})?$",

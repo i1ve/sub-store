@@ -698,9 +698,11 @@
         "ign.com.cn",
         "nadianshi.com",
         "news.yxrb.net",
+        "shoutanjjj.com",
         "ucg.cn",
         "youxichaguan.com",
         "youxiputao.com",
+        "youxituoluo.com",
         "yystv.cn"
       ],
       "domain_regex": "^.+-mihayo\\.akamaized\\.net$"
