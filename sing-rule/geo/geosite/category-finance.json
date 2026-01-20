@@ -2,6 +2,10 @@
   "version": 2,
   "rules": [
     {
+      "domain": [
+        "standchartbank.sc.omtrdc.net",
+        "standchartbank.tt.omtrdc.net"
+      ],
       "domain_suffix": [
         "agri-bank.com",
         "ansarbank.com",
@@ -270,6 +274,8 @@
         "schwab.com.sg",
         "schwabassetmanagement.com",
         "schwabplan.com",
+        "sc.com",
+        "standardchartered.com",
         "transferwise.com",
         "wise.com",
         "fxcorporate.com",
