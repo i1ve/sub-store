@@ -3,13 +3,13 @@
   "rules": [
     {
       "domain_suffix": [
-        "ctexcel.ca",
-        "ctexcel.com",
-        "ctexcel.com.hk",
-        "ctexcel.fr",
-        "ctexcel.us",
         "chinatelecomglobal.com",
-        "chinatelecomhk.com"
+        "chinatelecomhk.com",
+        "ctexcel.ca",
+        "ctexcel.com.hk",
+        "ctexcel.com",
+        "ctexcel.fr",
+        "ctexcel.us"
       ]
     }
   ]

@@ -3,27 +3,27 @@
   "rules": [
     {
       "domain_suffix": [
-        "mediachinese.com",
-        "mysinchew.com",
-        "sinchew.com.my",
-        "sinchew.my",
-        "soccerfanz.com.my",
-        "enanyang.my",
         "chinapress.com.my",
+        "enanyang.my",
         "guangming.com.my",
+        "mediachinese.com",
         "mingpao.com",
         "mingpaocanada.com",
         "mingpaomonthly.com",
         "mingpaotor.com",
         "mingpaovan.com",
+        "mings-fashion.com",
+        "mings.hk",
         "mingshengbao.com",
         "mingwatch.com",
         "mpfinance.com",
         "mpweekly.com",
-        "yzzk.com",
+        "mysinchew.com",
         "omghk.com",
-        "mings.hk",
-        "mings-fashion.com"
+        "sinchew.com.my",
+        "sinchew.my",
+        "soccerfanz.com.my",
+        "yzzk.com"
       ]
     }
   ]

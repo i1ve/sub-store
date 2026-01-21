@@ -5,6 +5,7 @@
       "domain_suffix": [
         "ads-twitter.com",
         "cms-twdigitalassets.com",
+        "grok.com",
         "periscope.tv",
         "pscp.tv",
         "t.co",
@@ -26,10 +27,8 @@
         "twttr.net",
         "twvid.com",
         "vine.co",
-        "x.com",
-        "grok.com",
-        "grok.x.com",
-        "x.ai"
+        "x.ai",
+        "x.com"
       ]
     }
   ]

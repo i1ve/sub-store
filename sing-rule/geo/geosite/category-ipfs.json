@@ -3,10 +3,10 @@
   "rules": [
     {
       "domain_suffix": [
-        "cf-ipfs.com",
-        "cloudflare-ipfs.com",
         "4everland.io",
         "c4rex.co",
+        "cf-ipfs.com",
+        "cloudflare-ipfs.com",
         "crustwebsites.net",
         "dweb.link",
         "gateway.pinata.cloud",

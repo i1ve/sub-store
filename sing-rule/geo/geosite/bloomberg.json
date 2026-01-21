@@ -3,11 +3,11 @@
   "rules": [
     {
       "domain_suffix": [
-        "bloomberg",
         "bbgevent.com",
         "bbhub.io",
         "bbthat.com",
         "bgov.com",
+        "bloomberg",
         "bloomberg.cn",
         "bloomberg.co.jp",
         "bloomberg.co.kr",

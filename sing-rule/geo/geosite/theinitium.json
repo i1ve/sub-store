@@ -3,8 +3,8 @@
   "rules": [
     {
       "domain_suffix": [
-        "theinitium.com",
-        "init.shop"
+        "init.shop",
+        "theinitium.com"
       ]
     }
   ]

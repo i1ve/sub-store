@@ -3,6 +3,9 @@
   "rules": [
     {
       "domain_suffix": [
+        "adidas-archive.org",
+        "adidas-group.ca",
+        "adidas-group.com",
         "adidas.ae",
         "adidas.at",
         "adidas.be",
@@ -59,12 +62,9 @@
         "adidas.sk",
         "adidasadmin.com",
         "adidasarchive.org",
-        "adidas-archive.org",
         "adidasbadminton.com",
         "adidasboxing.com",
         "adidascdn.com",
-        "adidas-group.ca",
-        "adidas-group.com",
         "adidasgymnastics.com",
         "adidashockey.com",
         "adidasmotorsport.com",

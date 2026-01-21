@@ -3,8 +3,6 @@
   "rules": [
     {
       "domain_suffix": [
-        "misskey.io",
-        "misskeyusercontent.jp",
         "9ineverse.com",
         "buicha.social",
         "gyutte.site",
@@ -23,10 +21,12 @@
         "misskey.flowers",
         "misskey.gamelore.fun",
         "misskey.gg",
+        "misskey.io",
         "misskey.noellabo.jp",
         "misskey.ranranhome.info",
         "misskey.stream",
         "misskey.yukineko.me",
+        "misskeyusercontent.jp",
         "mk.shrimpia.network",
         "mk.yopo.work",
         "mof.kemomi.me",

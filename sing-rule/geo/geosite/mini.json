@@ -3,12 +3,12 @@
   "rules": [
     {
       "domain_suffix": [
-        "mini",
         "4myminicard.com",
         "aboutyourmini.com",
         "atlantaminidealers.com",
         "greatergothammini.com",
         "midatlanticbmwmotorcycles.com",
+        "mini",
         "mini-abudhabi.com",
         "mini-antilles.fr",
         "mini-bahrain.com",
@@ -216,8 +216,7 @@
         "shopminiusa.com",
         "southfloridamini.com",
         "trmini.com",
-        "troisrivieresmini.com",
-        "yours-customised.mini.com"
+        "troisrivieresmini.com"
       ]
     }
   ]

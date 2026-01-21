@@ -3,8 +3,6 @@
   "rules": [
     {
       "domain_suffix": [
-        "graph.instagram.com",
-        "graph-fallback.instagram.com",
         "achat-followers-instagram.com",
         "acheter-followers-instagram.com",
         "acheterdesfollowersinstagram.com",
@@ -13,6 +11,8 @@
         "carstagram.com",
         "cdninstagram.com",
         "chickstagram.com",
+        "graph-fallback.instagram.com",
+        "graph.instagram.com",
         "ig.me",
         "igcdn.com",
         "igsonar.com",
@@ -71,10 +71,10 @@
         "intgram.com",
         "kingstagram.com",
         "lnstagram-help.com",
-        "theinstagramhack.com",
         "oninstagram.com",
         "online-instagram.com",
         "onlineinstagram.com",
+        "theinstagramhack.com",
         "web-instagram.net",
         "wwwinstagram.com"
       ]

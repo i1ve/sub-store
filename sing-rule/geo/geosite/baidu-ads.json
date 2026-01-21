@@ -3,7 +3,6 @@
   "rules": [
     {
       "domain_suffix": [
-        "syh.zybang.com",
         "adscdn.baidu.com",
         "adx.xiaodutv.com",
         "afd.baidu.com",
@@ -38,9 +37,9 @@
         "miao.baidu.com",
         "miaowu.baidu.com",
         "mipcache.bdstatic.com",
-        "mobads.baidu.com",
         "mobads-logs.baidu.com",
         "mobads-pre-config.cdn.bcebos.com",
+        "mobads.baidu.com",
         "mountain.zhidao.baidu.com",
         "nsclick.baidu.com",
         "nsclickvideo.baidu.com",
@@ -48,6 +47,7 @@
         "pos.baidu.com",
         "sclick.baidu.com",
         "spcode.baidu.com",
+        "syh.zybang.com",
         "tcbox.baidu.com",
         "ubmcvideo.baidustatic.com",
         "union.baidu.com",

@@ -3,26 +3,26 @@
   "rules": [
     {
       "domain_suffix": [
-        "consul.io",
-        "hashicorp.com",
-        "nomadproject.io",
-        "packer.io",
-        "terraform.io",
-        "vagrantcloud.com",
-        "vagrantup.com",
-        "vaultproject.io",
-        "ibm",
-        "weatherchannel",
-        "weather",
         "appdomain.cloud",
         "bluemix.com",
         "bluemix.net",
+        "consul.io",
+        "hashicorp.com",
+        "ibm",
         "ibm.com",
         "ibm.eu",
         "ibm.net",
         "ibm.us",
+        "nomadproject.io",
+        "packer.io",
         "s-bluemix.net",
-        "s81c.com"
+        "s81c.com",
+        "terraform.io",
+        "vagrantcloud.com",
+        "vagrantup.com",
+        "vaultproject.io",
+        "weather",
+        "weatherchannel"
       ]
     }
   ]

@@ -3,8 +3,8 @@
   "rules": [
     {
       "domain_suffix": [
-        "cowlevel.net",
-        "cdncl.net"
+        "cdncl.net",
+        "cowlevel.net"
       ]
     }
   ]

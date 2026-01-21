@@ -3,8 +3,8 @@
   "rules": [
     {
       "domain_suffix": [
-        "scmp.com",
-        "i-scmp.com"
+        "i-scmp.com",
+        "scmp.com"
       ]
     }
   ]

@@ -3,15 +3,15 @@
   "rules": [
     {
       "domain_suffix": [
+        "androidfilehost.com",
         "borneo.world",
         "borneoasia.com",
         "borneoschematic.com",
         "bosharso.net",
-        "hostborneo.org",
         "easy-jtag.com",
-        "z3x-team.com",
-        "androidfilehost.com",
-        "unlocktool.net"
+        "hostborneo.org",
+        "unlocktool.net",
+        "z3x-team.com"
       ]
     }
   ]

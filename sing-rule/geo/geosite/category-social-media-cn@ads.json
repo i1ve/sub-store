@@ -14,6 +14,7 @@
         "biz.weibo.com",
         "click.uve.mobile.sina.cn",
         "click.uve.weibo.com",
+        "crash2.zhihu.com",
         "log.mix.sina.com.cn",
         "log.sina.cn",
         "log2.sina.cn",
@@ -27,7 +28,6 @@
         "slog.sina.com.cn",
         "wapwbclick.mobile.sina.cn",
         "wbclick.mobile.sina.cn",
-        "crash2.zhihu.com",
         "zhihu-web-analytics.zhihu.com"
       ]
     }

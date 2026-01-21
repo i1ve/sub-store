@@ -3,8 +3,8 @@
   "rules": [
     {
       "domain": [
-        "cdn.ampproject.org",
-        "amp.akamaized.net"
+        "amp.akamaized.net",
+        "cdn.ampproject.org"
       ],
       "domain_suffix": [
         "amp.dev",

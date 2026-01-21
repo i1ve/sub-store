@@ -3,9 +3,9 @@
   "rules": [
     {
       "domain_suffix": [
+        "mycdn.me",
         "ok.ru",
-        "okcdn.ru",
-        "mycdn.me"
+        "okcdn.ru"
       ]
     }
   ]

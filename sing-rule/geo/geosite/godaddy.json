@@ -3,9 +3,9 @@
   "rules": [
     {
       "domain_suffix": [
+        "godaddy",
         "godaddy.com",
-        "x.co",
-        "godaddy"
+        "x.co"
       ]
     }
   ]

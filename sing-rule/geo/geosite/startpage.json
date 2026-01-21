@@ -3,8 +3,8 @@
   "rules": [
     {
       "domain_suffix": [
-        "startpage.com",
-        "ixquick.com"
+        "ixquick.com",
+        "startpage.com"
       ]
     }
   ]

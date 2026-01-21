@@ -3,6 +3,7 @@
   "rules": [
     {
       "domain_suffix": [
+        "appsflayer.com",
         "binance.cc",
         "binance.charity",
         "binance.cloud",
@@ -14,6 +15,7 @@
         "binance.org",
         "binance.us",
         "binance.vision",
+        "binanceapi.com",
         "binancecnt.com",
         "binancezh.be",
         "binancezh.biz",
@@ -30,11 +32,9 @@
         "binancezh.pro",
         "binancezh.sh",
         "binancezh.top",
-        "binanceapi.com",
         "bnbstatic.com",
         "bntrace.com",
         "nftstatic.com",
-        "appsflayer.com",
         "saasexch.cc",
         "saasexch.co",
         "saasexch.com",

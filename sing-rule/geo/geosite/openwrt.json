@@ -3,8 +3,8 @@
   "rules": [
     {
       "domain_suffix": [
-        "openwrt.org",
-        "lede-project.org"
+        "lede-project.org",
+        "openwrt.org"
       ]
     }
   ]

@@ -3,8 +3,8 @@
   "rules": [
     {
       "domain_suffix": [
-        "myradio.hk",
-        "myradio.com.hk"
+        "myradio.com.hk",
+        "myradio.hk"
       ]
     }
   ]

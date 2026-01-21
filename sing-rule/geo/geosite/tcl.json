@@ -3,11 +3,11 @@
   "rules": [
     {
       "domain_suffix": [
-        "tclai.top",
+        "leiniao.com",
         "tcl.com",
         "tcl.com.cn",
-        "tcltech.com",
-        "leiniao.com"
+        "tclai.top",
+        "tcltech.com"
       ]
     }
   ]

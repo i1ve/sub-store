@@ -3,11 +3,11 @@
   "rules": [
     {
       "domain_suffix": [
-        "visa.cn",
-        "visa.com.cn",
         "financialsoccer.com.cn",
         "practicalmoneyskills.cn",
         "practicalmoneyskills.com.cn",
+        "visa.cn",
+        "visa.com.cn",
         "visainfinite.cn",
         "visapay.cn",
         "visaplatinum.cn",

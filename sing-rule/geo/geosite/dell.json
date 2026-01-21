@@ -3,11 +3,11 @@
   "rules": [
     {
       "domain": [
-        "dell.my.site.com",
         "afcs.dell.com",
         "clientperipherals.dell.com",
         "customization-cdn.dell.com",
         "dds.dell.com",
+        "dell.my.site.com",
         "dl.dell.com",
         "ea2cn-dev-outlet.dell.com",
         "ea2cn-prod-outlet.dell.com",
@@ -32,7 +32,6 @@
         "www.dell.com"
       ],
       "domain_suffix": [
-        "dell",
         "alienware.ae",
         "alienware.at",
         "alienware.be",
@@ -70,8 +69,11 @@
         "alienware.ro",
         "alienware.se",
         "alienware.us",
+        "dataframeworks.com",
         "del.com",
         "del.com.br",
+        "dell",
+        "dell-alw.com",
         "dell-brand.com",
         "dell.ac",
         "dell.am",
@@ -211,8 +213,6 @@
         "dell.uz",
         "dell.vg",
         "dell.vn",
-        "dataframeworks.com",
-        "dell-alw.com",
         "dellcdn.com",
         "dellcommunity.com",
         "dellcomunidade.com",

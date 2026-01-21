@@ -3,27 +3,27 @@
   "rules": [
     {
       "domain_suffix": [
-        "enterprisessl.com",
-        "hackerguardian.com",
-        "instantssl.com",
-        "oemssl.cn",
-        "oemssl.cn.cdn.cloudflare.net",
-        "optimumssl.com",
-        "positivessl.com",
-        "sectigo.com",
-        "sectigochina.com",
-        "sectigochina.com.cdn.cloudflare.net",
-        "trust-provider.cn",
-        "trust-provider.com",
-        "usertrust.com",
         "aoc.cat",
         "catcert.cat",
-        "incommon-rsa.org",
-        "netsolssl.com",
         "comodoca.com",
         "comodoca2.com",
         "comodoca3.com",
-        "comodoca4.com"
+        "comodoca4.com",
+        "enterprisessl.com",
+        "hackerguardian.com",
+        "incommon-rsa.org",
+        "instantssl.com",
+        "netsolssl.com",
+        "oemssl.cn.cdn.cloudflare.net",
+        "oemssl.cn",
+        "optimumssl.com",
+        "positivessl.com",
+        "sectigo.com",
+        "sectigochina.com.cdn.cloudflare.net",
+        "sectigochina.com",
+        "trust-provider.cn",
+        "trust-provider.com",
+        "usertrust.com"
       ]
     }
   ]

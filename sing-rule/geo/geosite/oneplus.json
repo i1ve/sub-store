@@ -4,13 +4,13 @@
     {
       "domain": "community.oneplus.com",
       "domain_suffix": [
-        "oneplus.com",
+        "h2os.com",
         "oneplus.cn",
+        "oneplus.com",
         "oneplus.net",
-        "opstatics.com",
         "oneplusbbs.com",
         "oneplusmobile.com",
-        "h2os.com"
+        "opstatics.com"
       ]
     }
   ]

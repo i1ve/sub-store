@@ -3,8 +3,8 @@
   "rules": [
     {
       "domain_suffix": [
-        "khanacademy.org",
-        "kastatic.org"
+        "kastatic.org",
+        "khanacademy.org"
       ]
     }
   ]

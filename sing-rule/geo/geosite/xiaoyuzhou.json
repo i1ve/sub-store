@@ -3,11 +3,11 @@
   "rules": [
     {
       "domain_suffix": [
-        "xyzfm.space",
-        "xyzfm.link",
-        "xyzcdn.net",
+        "podcast.xyz",
         "xiaoyuzhoufm.com",
-        "podcast.xyz"
+        "xyzcdn.net",
+        "xyzfm.link",
+        "xyzfm.space"
       ]
     }
   ]

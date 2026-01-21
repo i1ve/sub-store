@@ -3,10 +3,10 @@
   "rules": [
     {
       "domain_suffix": [
-        "oystermercury.top",
         "comfy.org",
         "comfyci.org",
-        "comfyregistry.org"
+        "comfyregistry.org",
+        "oystermercury.top"
       ]
     }
   ]

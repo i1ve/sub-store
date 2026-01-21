@@ -3,16 +3,20 @@
   "rules": [
     {
       "domain": [
+        "bytedance.map.fastly.net",
         "p16-tiktokcdn-com.akamaized.net",
         "roovza-launches.appsflyersdk.com",
         "roovza.inapps.appsflyersdk.com",
         "roovza.launches.appsflyersdk.com",
-        "roovza.skadsdk.appsflyersdk.com",
-        "bytedance.map.fastly.net"
+        "roovza.skadsdk.appsflyersdk.com"
       ],
       "domain_suffix": [
         "bytedapm.com",
+        "byteglb.com",
         "byteoversea.com",
+        "byteoversea.net",
+        "ibytedtos.com",
+        "ibyteimg.com",
         "muscdn.com",
         "musical.ly",
         "tik-tokapi.com",
@@ -20,7 +24,10 @@
         "tiktok-row.net",
         "tiktok.com",
         "tiktokcdn-eu.com",
+        "tiktokcdn-us.com.edgesuite.net",
         "tiktokcdn-us.com",
+        "tiktokcdn.com.akamaized.net",
+        "tiktokcdn.com.edgesuite.net",
         "tiktokcdn.com",
         "tiktokd.net",
         "tiktokd.org",
@@ -28,6 +35,8 @@
         "tiktokglobalshopv.com",
         "tiktokminis.us",
         "tiktokrow-cdn.com",
+        "tiktokv.com.edgekey.net",
+        "tiktokv.com.edgesuite.net",
         "tiktokv.com",
         "tiktokv.eu",
         "tiktokv.us",
@@ -35,17 +44,7 @@
         "tiktokw.us",
         "ttlivecdn.com",
         "ttoverseaus.net",
-        "ttwstatic.com",
-        "tiktokcdn-us.com.edgesuite.net",
-        "tiktokcdn.com.akamaized.net",
-        "tiktokcdn.com.edgesuite.net",
-        "tiktokv.com.edgekey.net",
-        "tiktokv.com.edgesuite.net",
-        "byteglb.com",
-        "byteoversea.com",
-        "byteoversea.net",
-        "ibytedtos.com",
-        "ibyteimg.com"
+        "ttwstatic.com"
       ]
     }
   ]

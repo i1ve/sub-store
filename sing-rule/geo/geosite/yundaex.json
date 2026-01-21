@@ -3,15 +3,15 @@
   "rules": [
     {
       "domain_suffix": [
+        "udalogistic.cn",
+        "udalogistic.com",
         "ydsys.cn",
+        "yunda56.com",
         "yundaex.cn",
         "yundaex.com",
-        "yundasys.com",
-        "yunda56.com",
         "yundalog.com",
         "yundaltl.com",
-        "udalogistic.com",
-        "udalogistic.cn"
+        "yundasys.com"
       ]
     }
   ]

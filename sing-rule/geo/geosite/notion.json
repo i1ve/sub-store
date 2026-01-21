@@ -3,8 +3,6 @@
   "rules": [
     {
       "domain_suffix": [
-        "api.notion.com",
-        "img.notionusercontent.com",
         "notion-static.com",
         "notion.com",
         "notion.new",

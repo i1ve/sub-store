@@ -4,11 +4,11 @@
     {
       "domain_suffix": [
         "bingads.com",
-        "collector.github.com",
-        "copilot-telemetry.githubusercontent.com",
         "browser.events.data.msn.cn",
         "browser.events.data.msn.com",
         "clarity.ms",
+        "collector.github.com",
+        "copilot-telemetry.githubusercontent.com",
         "microsoftads.com",
         "msads.net",
         "nelreports.net"

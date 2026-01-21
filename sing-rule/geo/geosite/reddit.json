@@ -6,6 +6,7 @@
         "redd.it",
         "reddit.app.link",
         "reddit.com",
+        "reddit.map.fastly.net",
         "redditblog.com",
         "reddithelp.com",
         "redditinc.com",
@@ -13,8 +14,7 @@
         "redditmedia.com",
         "redditspace.com",
         "redditstatic.com",
-        "redditstatus.com",
-        "reddit.map.fastly.net"
+        "redditstatus.com"
       ]
     }
   ]

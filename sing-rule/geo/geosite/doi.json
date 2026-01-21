@@ -3,8 +3,8 @@
   "rules": [
     {
       "domain_suffix": [
-        "doi.org",
-        "doi.info"
+        "doi.info",
+        "doi.org"
       ]
     }
   ]

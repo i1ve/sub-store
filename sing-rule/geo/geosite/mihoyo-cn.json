@@ -3,6 +3,10 @@
   "rules": [
     {
       "domain_suffix": [
+        "benghuai.com",
+        "bh3.com",
+        "bhsr.com",
+        "juequling.com",
         "mhystatic.com",
         "mhyurl.cn",
         "mihayo.com",
@@ -12,12 +16,8 @@
         "mihoyogift.com",
         "mihoyomall.com",
         "miyoushe.com",
-        "benghuai.com",
-        "bh3.com",
-        "bhsr.com",
         "themisweeps.com",
-        "yuanshen.com",
-        "juequling.com"
+        "yuanshen.com"
       ],
       "domain_regex": "^.+-mihayo\\.akamaized\\.net$"
     }

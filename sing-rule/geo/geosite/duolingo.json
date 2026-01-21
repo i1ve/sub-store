@@ -4,10 +4,10 @@
     {
       "domain_suffix": [
         "ads-api.duolingo.com",
-        "metrics.duolingo.com",
         "analytics.vpc.duolingo.com",
+        "duolingo.cn",
         "duolingo.com",
-        "duolingo.cn"
+        "metrics.duolingo.com"
       ]
     }
   ]

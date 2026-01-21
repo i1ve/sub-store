@@ -3,23 +3,26 @@
   "rules": [
     {
       "domain_suffix": [
+        "boosty.to",
+        "cdn-vk.ru",
+        "donationalerts.com",
         "dzen.ru",
         "dzeninfra.ru",
         "imgsmail.ru",
         "mail.ru",
-        "ok.ru",
-        "okcdn.ru",
-        "mycdn.me",
-        "cdn-vk.ru",
+        "memealerts.com",
         "mradx.net",
         "mvk.com",
+        "mycdn.me",
+        "ok.ru",
+        "okcdn.ru",
+        "tamtam.chat",
         "userapi.com",
         "vk-analytics.ru",
         "vk-apps.com",
         "vk-apps.ru",
         "vk-cdn.me",
         "vk-cdn.net",
-        "vkcloud-static.ru",
         "vk-portal.net",
         "vk.cc",
         "vk.com",
@@ -30,6 +33,7 @@
         "vk.ru",
         "vk.team",
         "vkcache.com",
+        "vkcloud-static.ru",
         "vkgo.app",
         "vklive.app",
         "vkmessenger.app",
@@ -45,11 +49,7 @@
         "vkuservideo.com",
         "vkuservideo.net",
         "vkuservideo.ru",
-        "vkvideo.ru",
-        "boosty.to",
-        "donationalerts.com",
-        "memealerts.com",
-        "tamtam.chat"
+        "vkvideo.ru"
       ]
     }
   ]

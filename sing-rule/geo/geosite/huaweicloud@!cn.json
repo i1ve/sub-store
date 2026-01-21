@@ -3,8 +3,6 @@
   "rules": [
     {
       "domain_suffix": [
-        "huaweicloud-dns.net",
-        "huaweicloud-dns.org",
         "ae-ad-1.myhuaweicloud.com",
         "af-east-201.myhuaweicloud.com",
         "af-north-1.myhuaweicloud.com",
@@ -31,6 +29,8 @@
         "eu-west-1.myhuaweicloud.com",
         "eu-west-101.myhuaweicloud.com",
         "eu-west-201.myhuaweicloud.com",
+        "huaweicloud-dns.net",
+        "huaweicloud-dns.org",
         "la-north-2.myhuaweicloud.com",
         "la-north-205.myhuaweicloud.com",
         "la-south-2.myhuaweicloud.com",

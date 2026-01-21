@@ -3,8 +3,8 @@
   "rules": [
     {
       "domain_suffix": [
-        "hongkongpost.gov.hk",
-        "ecert.gov.hk"
+        "ecert.gov.hk",
+        "hongkongpost.gov.hk"
       ]
     }
   ]

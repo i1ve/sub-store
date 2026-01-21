@@ -3,15 +3,15 @@
   "rules": [
     {
       "domain_suffix": [
-        "sandai.net",
-        "thunderurl.com",
-        "xunlei.com",
         "00cdn.com",
         "88cdn.com",
         "p2cdn.com",
+        "sandai.net",
         "thundercdn.com",
-        "xycloud.com",
-        "xycdn.com"
+        "thunderurl.com",
+        "xunlei.com",
+        "xycdn.com",
+        "xycloud.com"
       ]
     }
   ]

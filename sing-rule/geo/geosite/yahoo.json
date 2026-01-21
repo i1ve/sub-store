@@ -4,15 +4,18 @@
     {
       "domain": "cdn.js7k.com",
       "domain_suffix": [
-        "flickr",
+        "ads.yahoo.com",
         "flic.kr",
+        "flickr",
         "flickr.com",
         "flickr.net",
-        "staticflickr.com",
-        "ads.yahoo.com",
         "gemini.yahoo.com",
-        "ysm.yahoo.com",
+        "maktoob.com",
+        "myguide.hk",
+        "staticflickr.com",
+        "techcrunch.com",
         "yahoo",
+        "yahoo-news.com.hk",
         "yahoo.ae",
         "yahoo.am",
         "yahoo.as",
@@ -162,10 +165,6 @@
         "yahoo.tn",
         "yahoo.vg",
         "yahoo.ws",
-        "maktoob.com",
-        "myguide.hk",
-        "techcrunch.com",
-        "yahoo-news.com.hk",
         "yahooapis.com",
         "yahoodns.net",
         "yahoofinance.com",
@@ -177,6 +176,7 @@
         "yimg.com",
         "yimg.jp",
         "ymail.com",
+        "ysm.yahoo.com",
         "yusercontent.com"
       ]
     }

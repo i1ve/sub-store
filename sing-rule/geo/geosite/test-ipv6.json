@@ -3,8 +3,6 @@
   "rules": [
     {
       "domain_suffix": [
-        "ams2.test-ipv6.com",
-        "fra.test-ipv6.com",
         "sixte.st",
         "test-ipv6.alpinedc.ch",
         "test-ipv6.arauc.br",
@@ -28,8 +26,8 @@
         "test-ipv6.se",
         "test-ipv6.sin.vr.org",
         "test-ipv6.ttk.ru",
-        "testipv6.de",
-        "testipv6.cn"
+        "testipv6.cn",
+        "testipv6.de"
       ]
     }
   ]

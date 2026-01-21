@@ -3,8 +3,8 @@
   "rules": [
     {
       "domain_suffix": [
-        "wolai.com",
         "wol.tv",
+        "wolai.com",
         "wostatic.cn"
       ]
     }

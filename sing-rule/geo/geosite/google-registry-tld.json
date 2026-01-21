@@ -3,26 +3,26 @@
   "rules": [
     {
       "domain_suffix": [
-        "meme",
-        "ing",
-        "foo",
-        "zip",
-        "mov",
-        "nexus",
+        "app",
+        "boo",
         "dad",
+        "day",
+        "dev",
+        "esq",
+        "foo",
+        "how",
+        "ing",
+        "meme",
+        "mov",
+        "new",
+        "nexus",
+        "page",
         "phd",
         "prof",
-        "esq",
         "rsvp",
-        "boo",
-        "day",
-        "new",
-        "dev",
-        "page",
-        "app",
-        "how",
         "soy",
-        "xn--q9jyb4c"
+        "xn--q9jyb4c",
+        "zip"
       ]
     }
   ]

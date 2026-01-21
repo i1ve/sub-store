@@ -3,13 +3,6 @@
   "rules": [
     {
       "domain_suffix": [
-        "gofile.me",
-        "quickconnect.to",
-        "synology.com",
-        "synologydownload.com",
-        "synologyupdate.com",
-        "quickconnect.cn",
-        "synology.cn",
         "diskstation.me",
         "dscloud.biz",
         "dscloud.me",
@@ -20,9 +13,16 @@
         "familyds.com",
         "familyds.net",
         "familyds.org",
+        "gofile.me",
         "i234.me",
         "myds.me",
-        "synology.me"
+        "quickconnect.cn",
+        "quickconnect.to",
+        "synology.cn",
+        "synology.com",
+        "synology.me",
+        "synologydownload.com",
+        "synologyupdate.com"
       ]
     }
   ]

@@ -3,8 +3,8 @@
   "rules": [
     {
       "domain_suffix": [
-        "squirrelvpn.com",
-        "squirrelgroup.net"
+        "squirrelgroup.net",
+        "squirrelvpn.com"
       ]
     }
   ]

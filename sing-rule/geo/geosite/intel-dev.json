@@ -4,6 +4,8 @@
     {
       "domain_suffix": [
         "01.org",
+        "acpica.com",
+        "clearlinux.org",
         "hyperscan.io",
         "intellinuxgraphics.com",
         "intellinuxgraphics.net",
@@ -13,13 +15,11 @@
         "opendroneid.org",
         "openvino.ai",
         "openvinotoolkit.org",
+        "ospray.net",
+        "ospray.org",
         "renderingtoolkit.org",
         "snap-telemetry.io",
-        "universalscalablefirmware.org",
-        "acpica.com",
-        "clearlinux.org",
-        "ospray.net",
-        "ospray.org"
+        "universalscalablefirmware.org"
       ]
     }
   ]

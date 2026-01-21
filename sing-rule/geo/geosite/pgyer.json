@@ -3,9 +3,9 @@
   "rules": [
     {
       "domain_suffix": [
+        "frontjs.com",
         "pgyer.com",
-        "tracup.com",
-        "frontjs.com"
+        "tracup.com"
       ]
     }
   ]

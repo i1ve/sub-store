@@ -5,6 +5,7 @@
       "domain_suffix": [
         "pin.it",
         "pinimg.com",
+        "pinimg.com.cdn.cloudflare.net",
         "pinterest.at",
         "pinterest.be",
         "pinterest.ca",
@@ -39,6 +40,7 @@
         "pinterest.it",
         "pinterest.jp",
         "pinterest.kr",
+        "pinterest.map.fastly.net",
         "pinterest.mx",
         "pinterest.net",
         "pinterest.nl",
@@ -52,9 +54,7 @@
         "pinterest.tw",
         "pinterest.uk",
         "pinterest.vn",
-        "pinterestmail.com",
-        "pinimg.com.cdn.cloudflare.net",
-        "pinterest.map.fastly.net"
+        "pinterestmail.com"
       ]
     }
   ]

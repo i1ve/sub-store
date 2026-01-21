@@ -3,21 +3,21 @@
   "rules": [
     {
       "domain_suffix": [
-        "517lppz.com",
-        "lppz.com",
-        "lppzimg.com",
-        "lkcoffee.com",
-        "luckincoffeecdn.com",
-        "yyds.co",
         "3songshu.com",
-        "haidilao.com",
-        "heytea.com",
+        "517lppz.com",
         "anlaiye.com",
         "anlaiye.com.cn",
-        "imcoming.com",
+        "haidilao.com",
+        "heytea.com",
         "imcome.net",
+        "imcoming.com",
+        "lkcoffee.com",
+        "lppz.com",
+        "lppzimg.com",
+        "luckincoffeecdn.com",
         "meican.com",
-        "meicanstatic.com"
+        "meicanstatic.com",
+        "yyds.co"
       ]
     }
   ]

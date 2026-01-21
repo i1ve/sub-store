@@ -3,12 +3,10 @@
   "rules": [
     {
       "domain": [
-        "cdn.ampproject.org",
-        "amp.akamaized.net"
+        "amp.akamaized.net",
+        "cdn.ampproject.org"
       ],
       "domain_suffix": [
-        "kernel.org",
-        "linux.org",
         "amp.dev",
         "ampproject.com",
         "ampproject.net",
@@ -17,11 +15,13 @@
         "jquery.com",
         "jquerymobile.com",
         "jqueryui.com",
+        "kernel.org",
+        "lfai.foundation",
+        "linux.org",
+        "linuxfoundation.org",
         "mochajs.org",
         "nodejs.org",
-        "openjsf.org",
-        "lfai.foundation",
-        "linuxfoundation.org"
+        "openjsf.org"
       ]
     }
   ]

@@ -3,7 +3,6 @@
   "rules": [
     {
       "domain_suffix": [
-        "rferl.org",
         "azadiradio.com",
         "azadliq.org",
         "azathabar.com",
@@ -26,6 +25,7 @@
         "radiomarsho.com",
         "radiosvoboda.org",
         "radiotavisupleba.ge",
+        "rferl.org",
         "severreal.org",
         "sibreal.org",
         "slobodnaevropa.mk",

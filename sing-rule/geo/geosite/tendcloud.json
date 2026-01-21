@@ -3,11 +3,11 @@
   "rules": [
     {
       "domain_suffix": [
-        "tendcloud.com",
+        "cpatrk.net",
         "talkingdata.com",
         "talkinggame.com",
-        "cpatrk.net",
-        "tdsdk.cpatrk.net"
+        "tdsdk.cpatrk.net",
+        "tendcloud.com"
       ]
     }
   ]

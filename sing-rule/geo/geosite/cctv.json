@@ -3,6 +3,7 @@
   "rules": [
     {
       "domain_suffix": [
+        "ad.cctv.com",
         "cctv.cn",
         "cctv.com",
         "cctvlib.cn",
@@ -43,8 +44,7 @@
         "zggbdszt.cn",
         "zggbdszt.com.cn",
         "zggbdszt.net.cn",
-        "zygbdszt.net.cn",
-        "ad.cctv.com"
+        "zygbdszt.net.cn"
       ]
     }
   ]

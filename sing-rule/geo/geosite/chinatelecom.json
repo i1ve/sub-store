@@ -3,18 +3,18 @@
   "rules": [
     {
       "domain_suffix": [
-        "ctexcel.ca",
-        "ctexcel.com",
-        "ctexcel.com.hk",
-        "ctexcel.fr",
-        "ctexcel.us",
         "189.cn",
         "chinatelecom-h.com",
         "chinatelecom.com.cn",
         "chinatelecomglobal.com",
+        "chinatelecomhk.com",
         "chntel.com",
-        "vnet.cn",
-        "chinatelecomhk.com"
+        "ctexcel.ca",
+        "ctexcel.com.hk",
+        "ctexcel.com",
+        "ctexcel.fr",
+        "ctexcel.us",
+        "vnet.cn"
       ]
     }
   ]

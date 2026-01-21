@@ -4,19 +4,19 @@
     {
       "domain": "fontshop-prod-responsive-images.s3.amazonaws.com",
       "domain_suffix": [
+        "bitstream.com",
+        "fontbook.com",
         "fontexplorerx.com",
         "fonts.com",
         "fonts.net",
-        "fontbook.com",
         "fontshop.com",
         "fstopimages.com",
+        "itcfonts.com",
         "linotype.com",
-        "myfonts.com",
-        "myfonts.net",
         "monotype.com",
         "monotypeimaging.com",
-        "bitstream.com",
-        "itcfonts.com"
+        "myfonts.com",
+        "myfonts.net"
       ]
     }
   ]

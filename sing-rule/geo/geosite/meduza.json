@@ -3,8 +3,8 @@
   "rules": [
     {
       "domain_suffix": [
-        "meduza.io",
-        "meduza-flutter.firebaseapp.com"
+        "meduza-flutter.firebaseapp.com",
+        "meduza.io"
       ]
     }
   ]

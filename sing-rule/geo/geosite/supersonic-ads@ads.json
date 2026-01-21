@@ -3,10 +3,10 @@
   "rules": [
     {
       "domain_suffix": [
-        "supersonic.com",
-        "supersonicads.com",
         "ssacdn.com",
-        "supersonicads-a.akamaihd.net"
+        "supersonic.com",
+        "supersonicads-a.akamaihd.net",
+        "supersonicads.com"
       ]
     }
   ]

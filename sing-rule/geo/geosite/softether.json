@@ -3,8 +3,8 @@
   "rules": [
     {
       "domain_suffix": [
-        "softether.org",
-        "softether-download.com"
+        "softether-download.com",
+        "softether.org"
       ]
     }
   ]

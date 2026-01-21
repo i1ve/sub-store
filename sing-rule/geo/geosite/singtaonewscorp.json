@@ -3,24 +3,24 @@
   "rules": [
     {
       "domain_suffix": [
-        "singtaonewscorp.com",
+        "bastillepost.com",
+        "easttouch.com.hk",
+        "eastweek.com.hk",
+        "eduplus.hk",
+        "headlinejobs.hk",
+        "hkheadline.com",
+        "jobmarket.com.hk",
+        "my-magazine.me",
+        "pcmarket.com.hk",
         "sing68.com",
         "singtao.com",
         "singtaobooks.com",
         "singtaola.com",
+        "singtaonewscorp.com",
+        "singtaoopo.com",
         "singtaousa.com",
         "stheadline.com",
-        "singtaoopo.com",
-        "hkheadline.com",
-        "thestandard.com.hk",
-        "eastweek.com.hk",
-        "easttouch.com.hk",
-        "bastillepost.com",
-        "eduplus.hk",
-        "headlinejobs.hk",
-        "jobmarket.com.hk",
-        "my-magazine.me",
-        "pcmarket.com.hk"
+        "thestandard.com.hk"
       ]
     }
   ]

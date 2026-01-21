@@ -3,12 +3,12 @@
   "rules": [
     {
       "domain_suffix": [
+        "done.ir",
         "faradars.org",
         "git.ir",
+        "iranlms.org",
         "learnby.ir",
         "toplearn.com",
-        "done.ir",
-        "iranlms.org",
         "webinarplus.online"
       ]
     }

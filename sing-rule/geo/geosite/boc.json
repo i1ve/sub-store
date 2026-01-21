@@ -3,14 +3,14 @@
   "rules": [
     {
       "domain_suffix": [
-        "boc.cn",
         "bank-of-china.com",
         "bankofchina.com",
-        "bocfullertonbank.com",
+        "boc.cn",
         "bocamchina.com",
         "bocaviation.com",
         "boccfc.cc",
         "boccfc.cn",
+        "bocfullertonbank.com",
         "bocgi.com",
         "bocgins.com",
         "bochk.com",

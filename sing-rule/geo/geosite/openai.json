@@ -3,24 +3,24 @@
   "rules": [
     {
       "domain": [
+        "browser-intake-datadoghq.com",
+        "o33249.ingest.sentry.io",
         "openaiapi-site.azureedge.net",
         "openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net",
-        "openaicomproductionae4b.blob.core.windows.net",
-        "production-openaicom-storage.azureedge.net",
-        "o33249.ingest.sentry.io",
         "openaicom.imgix.net",
-        "browser-intake-datadoghq.com"
+        "openaicomproductionae4b.blob.core.windows.net",
+        "production-openaicom-storage.azureedge.net"
       ],
       "domain_suffix": [
-        "chatgpt.com",
         "chat.com",
+        "chatgpt.com",
+        "chatgpt.livekit.cloud",
+        "host.livekit.cloud",
         "oaistatic.com",
         "oaiusercontent.com",
         "openai.com",
-        "sora.com",
         "openai.com.cdn.cloudflare.net",
-        "chatgpt.livekit.cloud",
-        "host.livekit.cloud",
+        "sora.com",
         "turn.livekit.cloud"
       ],
       "domain_regex": "^chatgpt-async-webps-prod-\\S+-\\d+\\.webpubsub\\.azure\\.com$"

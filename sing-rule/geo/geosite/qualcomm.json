@@ -6,6 +6,7 @@
       "domain_suffix": [
         "airgonetworks.com",
         "berkanawireless.com",
+        "brewmp.com",
         "cdmatech.com",
         "dragoniscoming.com",
         "gobianywhere.com",
@@ -22,8 +23,8 @@
         "qctconnect.com",
         "qprize.com",
         "qualcomm-email.com",
-        "qualcomm.cn",
         "qualcomm.cn.cdn.cloudflare.net",
+        "qualcomm.cn",
         "qualcomm.co.id",
         "qualcomm.co.in",
         "qualcomm.co.jp",
@@ -48,8 +49,7 @@
         "wipower.com",
         "wirelessreach.com",
         "xtracloud.cn",
-        "xtracloud.net",
-        "brewmp.com"
+        "xtracloud.net"
       ]
     }
   ]

@@ -3,8 +3,8 @@
   "rules": [
     {
       "domain_suffix": [
-        "renren.com",
-        "renren-inc.com"
+        "renren-inc.com",
+        "renren.com"
       ]
     }
   ]

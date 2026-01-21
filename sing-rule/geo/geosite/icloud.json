@@ -4,9 +4,6 @@
     {
       "domain": "www-cdn.icloud.com.akadns.net",
       "domain_suffix": [
-        "mask-api.icloud.com",
-        "mask-h2.icloud.com",
-        "mask.icloud.com",
         "apple-icloud.cn",
         "appleicloud.cn",
         "applemx-icloud.com",
@@ -44,12 +41,12 @@
         "icloudmail.net",
         "icloudmusic.net",
         "icloudnet.net",
-        "icloudpay.net",
         "icloudo.com",
         "icloudo.de",
         "icloudo.net",
         "icloudos.de",
         "icloudos.net",
+        "icloudpay.net",
         "icloudsecure.net",
         "icloudsetup.com",
         "ios-icloud.com",

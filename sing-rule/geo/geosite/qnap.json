@@ -3,11 +3,11 @@
   "rules": [
     {
       "domain_suffix": [
+        "myqnapcloud.cn",
         "myqnapcloud.com",
         "qlink.to",
-        "qnap.com",
-        "myqnapcloud.cn",
         "qlinkto.cn",
+        "qnap.com",
         "qnap.com.cn"
       ]
     }

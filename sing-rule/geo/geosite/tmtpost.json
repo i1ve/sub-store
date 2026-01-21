@@ -3,12 +3,12 @@
   "rules": [
     {
       "domain_suffix": [
-        "tmtpost.com",
-        "chaindd.com",
         "72whys.com",
+        "chaindd.com",
         "checkzeit.com",
-        "tivitv.com",
         "tigeek.net.cn",
+        "tivitv.com",
+        "tmtpost.com",
         "tmtsmartlife.com",
         "tmtsmartrun.com"
       ]

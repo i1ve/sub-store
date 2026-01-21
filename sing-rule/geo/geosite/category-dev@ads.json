@@ -3,9 +3,9 @@
   "rules": [
     {
       "domain_suffix": [
+        "ads.unitychina.cn",
         "collector.github.com",
         "copilot-telemetry.githubusercontent.com",
-        "ads.unitychina.cn",
         "splash-ads.cdn.unity.cn",
         "splash-ads.unitychina.cn",
         "unityads.unity.cn",

@@ -3,6 +3,7 @@
   "rules": [
     {
       "domain_suffix": [
+        "canonical.com",
         "launchpad.net",
         "launchpadcontent.net",
         "launchpadlibrarian.com",
@@ -10,11 +11,10 @@
         "launchpadlibrarian.org",
         "snapcraft.io",
         "snapstore.io",
+        "ubuntu-touch.io",
         "ubuntu.com",
         "ubuntu.net",
-        "ubuntuforums.org",
-        "ubuntu-touch.io",
-        "canonical.com"
+        "ubuntuforums.org"
       ]
     }
   ]

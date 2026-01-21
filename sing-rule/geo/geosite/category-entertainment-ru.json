@@ -3,14 +3,14 @@
   "rules": [
     {
       "domain_suffix": [
-        "playfamily.ru",
+        "ngenix.net",
         "okko.sport",
         "okko.tv",
+        "playfamily.ru",
+        "restream-media.net",
+        "rtbcdn.ru",
         "rutube.ru",
         "rutubelist.ru",
-        "rtbcdn.ru",
-        "ngenix.net",
-        "restream-media.net",
         "wink.ru"
       ]
     }

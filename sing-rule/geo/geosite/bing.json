@@ -3,9 +3,9 @@
   "rules": [
     {
       "domain": [
-        "location.microsoft.com",
         "bj1.api.bing.com",
-        "emoi-cncdn.bing.com"
+        "emoi-cncdn.bing.com",
+        "location.microsoft.com"
       ],
       "domain_suffix": [
         "bing",
@@ -22,8 +22,12 @@
         "bingvisualsearch.com",
         "bingworld.com",
         "bluehatnights.com",
+        "cn.bing.com",
+        "cn.bing.net",
+        "cn.mm.bing.net",
         "copilot.microsoft.com",
         "dictate.ms",
+        "ditu.live.com",
         "flipwithsurface.com",
         "masalladeloslimites.com",
         "microsoft-give.com",
@@ -35,13 +39,9 @@
         "msunlimitedcloudsummit.com",
         "office365love.com",
         "office365tw.com",
+        "r.bing.com",
         "renovacionoffice.com",
         "sprinklesapp.com",
-        "cn.bing.com",
-        "cn.bing.net",
-        "cn.mm.bing.net",
-        "ditu.live.com",
-        "r.bing.com",
         "th.bing.com"
       ]
     }

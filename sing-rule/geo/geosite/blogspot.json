@@ -3,8 +3,9 @@
   "rules": [
     {
       "domain_suffix": [
-        "blogger.com",
         "blogblog.com",
+        "blogger.com",
+        "blogger.googleusercontent.com",
         "blogspot.ae",
         "blogspot.al",
         "blogspot.am",
@@ -77,8 +78,7 @@
         "blogspot.td",
         "blogspot.tw",
         "blogspot.ug",
-        "blogspot.vn",
-        "blogger.googleusercontent.com"
+        "blogspot.vn"
       ]
     }
   ]

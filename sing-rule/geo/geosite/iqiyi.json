@@ -4,14 +4,6 @@
     {
       "domain_suffix": [
         "71.am",
-        "iq.com",
-        "iqiyi.com",
-        "iqiyipic.com",
-        "pps.tv",
-        "ppsimg.com",
-        "qiyi.com",
-        "qiyipic.com",
-        "qy.net",
         "71edge.com",
         "ad.m.iqiyi.com",
         "afp.iqiyi.com",
@@ -19,10 +11,18 @@
         "cloudpush.iqiyi.com",
         "cupid.iqiyi.com",
         "ifacelog.iqiyi.com",
+        "iq.com",
+        "iqiyi.com",
+        "iqiyipic.com",
         "mbdlog.iqiyi.com",
         "msg.video.qiyi.com",
         "msg2.video.qiyi.com",
-        "policy.video.iqiyi.com"
+        "policy.video.iqiyi.com",
+        "pps.tv",
+        "ppsimg.com",
+        "qiyi.com",
+        "qiyipic.com",
+        "qy.net"
       ]
     }
   ]

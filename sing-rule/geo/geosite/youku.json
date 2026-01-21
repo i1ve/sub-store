@@ -3,12 +3,12 @@
   "rules": [
     {
       "domain_suffix": [
+        "cibntv.net",
         "kumiao.com",
-        "youku.com",
-        "ykimg.com",
         "mmstat.com",
         "soku.com",
-        "cibntv.net"
+        "ykimg.com",
+        "youku.com"
       ]
     }
   ]

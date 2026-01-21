@@ -3,9 +3,9 @@
   "rules": [
     {
       "domain_suffix": [
-        "newisiknowledge.com",
-        "isiknowledge.com",
         "clarivate.com",
+        "isiknowledge.com",
+        "newisiknowledge.com",
         "webofknowledge.com",
         "webofscience.com"
       ]

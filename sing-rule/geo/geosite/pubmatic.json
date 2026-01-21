@@ -3,9 +3,9 @@
   "rules": [
     {
       "domain_suffix": [
-        "pubmatic.com",
+        "ads.pubmatic.com",
         "pubmatic.co.jp",
-        "ads.pubmatic.com"
+        "pubmatic.com"
       ]
     }
   ]

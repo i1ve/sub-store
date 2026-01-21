@@ -3,17 +3,19 @@
   "rules": [
     {
       "domain_suffix": [
-        "yandex",
-        "xn--d1acpjx3f.xn--p1ai",
         "adfox.ru",
         "admetrica.ru",
+        "kinopoisk-ru.clstorage.net",
+        "kinopoisk.ru",
         "naydex.net",
         "rostaxi.org",
         "turbopages.org",
         "webvisor.com",
         "webvisor.org",
+        "xn--d1acpjx3f.xn--p1ai",
         "ya.ru",
         "yads.tech",
+        "yandex",
         "yandex-bank.net",
         "yandex-images.clstorage.net",
         "yandex-team.ru",
@@ -56,9 +58,7 @@
         "yandexmetrica.com",
         "yandexwebcache.org",
         "yastat.net",
-        "yastatic.net",
-        "kinopoisk.ru",
-        "kinopoisk-ru.clstorage.net"
+        "yastatic.net"
       ]
     }
   ]

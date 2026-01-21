@@ -3,8 +3,8 @@
   "rules": [
     {
       "domain_suffix": [
-        "dazn.com",
         "dazn-api.com",
+        "dazn.com",
         "dazndn.com",
         "daznfeeds.com",
         "daznplayer.com",

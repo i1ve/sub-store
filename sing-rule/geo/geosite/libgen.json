@@ -3,14 +3,14 @@
   "rules": [
     {
       "domain_suffix": [
-        "libgen.life",
-        "libgen.fun",
-        "library.lol",
         "gen.lib.rus.ec",
+        "libgen.fun",
         "libgen.is",
+        "libgen.life",
         "libgen.me",
         "libgen.rs",
-        "libgen.st"
+        "libgen.st",
+        "library.lol"
       ]
     }
   ]

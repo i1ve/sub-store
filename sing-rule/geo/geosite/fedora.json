@@ -3,11 +3,11 @@
   "rules": [
     {
       "domain_suffix": [
-        "getfedora.org",
         "fedoraforum.org",
+        "fedoramagazine.org",
         "fedorapeople.org",
         "fedoraproject.org",
-        "fedoramagazine.org"
+        "getfedora.org"
       ]
     }
   ]

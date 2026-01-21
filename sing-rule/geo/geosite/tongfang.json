@@ -3,9 +3,9 @@
   "rules": [
     {
       "domain_suffix": [
+        "mechrevo.com",
         "thtf.com.cn",
-        "tongfangpc.com",
-        "mechrevo.com"
+        "tongfangpc.com"
       ]
     }
   ]

@@ -3,8 +3,6 @@
   "rules": [
     {
       "domain_suffix": [
-        "staticfile.net",
-        "staticfile.org",
         "qbox.me",
         "qiniu.com",
         "qiniucdn.com",
@@ -12,7 +10,9 @@
         "qiniudns.com",
         "qiniup.com",
         "qnsdk.com",
-        "qnssl.com"
+        "qnssl.com",
+        "staticfile.net",
+        "staticfile.org"
       ]
     }
   ]

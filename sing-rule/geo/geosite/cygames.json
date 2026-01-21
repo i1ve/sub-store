@@ -3,11 +3,11 @@
   "rules": [
     {
       "domain_suffix": [
-        "cygames.jp",
         "cygames.co.jp",
-        "worldflipper.jp",
+        "cygames.jp",
+        "umamusume.akamaized.net",
         "worldflipper.akamaized.net",
-        "umamusume.akamaized.net"
+        "worldflipper.jp"
       ]
     }
   ]

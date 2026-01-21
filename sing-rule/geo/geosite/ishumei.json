@@ -3,10 +3,10 @@
   "rules": [
     {
       "domain_suffix": [
-        "ishumei.com",
         "fengkongbao.com",
-        "fengkongcloud.com",
         "fengkongcloud.cn",
+        "fengkongcloud.com",
+        "ishumei.com",
         "portal101.cn",
         "portal102.cn",
         "portal201.cn",

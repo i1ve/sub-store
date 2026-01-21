@@ -3,8 +3,8 @@
   "rules": [
     {
       "domain_suffix": [
-        "qt.io",
-        "qt-project.org"
+        "qt-project.org",
+        "qt.io"
       ]
     }
   ]

@@ -3,16 +3,6 @@
   "rules": [
     {
       "domain": [
-        "firebase-settings.crashlytics.com",
-        "redirector.c.play.google.com",
-        "pki-goog.l.google.com",
-        "c.pki.goog",
-        "i.pki.goog",
-        "o.pki.goog",
-        "crl.pki.goog",
-        "crls.pki.goog",
-        "ocsp.pki.goog",
-        "www.recaptcha.net",
         "265.com",
         "2mdn-cn.net",
         "2mdn.net",
@@ -29,6 +19,7 @@
         "beacons3.gvt2.com",
         "c.admob.com",
         "c.android.clients.google.com",
+        "c.pki.goog",
         "cache-management-prod.google.com",
         "cache.pack.google.com",
         "checkin.gstatic.com",
@@ -41,6 +32,8 @@
         "connectivitycheck.gstatic.com",
         "content.googleadapis.com",
         "crashlyticsreports-pa.googleapis.com",
+        "crl.pki.goog",
+        "crls.pki.goog",
         "csi.gstatic.com",
         "dartsearch-cn.net",
         "dg-meta.video.google.com",
@@ -52,6 +45,7 @@
         "download.qatp1.net",
         "download.tensorflow.google.com",
         "emmapplecodevice.googleapis.com",
+        "firebase-settings.crashlytics.com",
         "fontfiles.googleapis.com",
         "fonts.googleapis.com",
         "fonts.gstatic.com",
@@ -84,14 +78,18 @@
         "gstatic-cn.com",
         "gstaticadssl.l.google.com",
         "gtm.oasisfeng.com",
+        "i.pki.goog",
         "imasdk.googleapis.com",
         "l2-uberproxy.corp.google.com",
         "logger-dev.corp.google.com",
         "logger.corp.google.com",
         "login.corp.google.com",
         "monitoring.qpdp1.net",
+        "o.pki.goog",
+        "ocsp.pki.goog",
         "pagead-googlehosted.l.google.com",
         "performanceparameters.googleapis.com",
+        "pki-goog.l.google.com",
         "prod-controlbe.floonet.goog",
         "prod-databe.floonet.goog",
         "prod.databe.floonet.goog",
@@ -110,6 +108,7 @@
         "redirector.c.chat.google.com",
         "redirector.c.mail.google.com",
         "redirector.c.pack.google.com",
+        "redirector.c.play.google.com",
         "redirector.c.youtubeeducation.com",
         "redirector.gcpcdn.gvt1.com",
         "redirector.gvt1.com",
@@ -147,13 +146,14 @@
         "www.destinationurl.com",
         "www.gstatic.com",
         "www.pxcc.com",
+        "www.recaptcha.net",
         "xn--flw351e.com"
       ],
       "domain_suffix": [
-        "ggpht.cn",
-        "google.cn",
         "g.cn",
+        "ggpht.cn",
         "gkecnapps.cn",
+        "google.cn",
         "googlecnapps.cn",
         "gstatic.cn",
         "gstaticcnapps.cn",
@@ -161,8 +161,8 @@
         "gvt2-cn.com"
       ],
       "domain_regex": [
-        "^r+[0-9]+(---|\\.)sn-(2x3|ni5|j5o)\\w{5}\\.xn--ngstr-lra8j\\.com$",
-        "^r+[0-9]+(---|\\.)sn-(2x3|ni5|j5o)\\w{5}\\.googlevideo\\.com$"
+        "^r+[0-9]+(---|\\.)sn-(2x3|ni5|j5o)\\w{5}\\.googlevideo\\.com$",
+        "^r+[0-9]+(---|\\.)sn-(2x3|ni5|j5o)\\w{5}\\.xn--ngstr-lra8j\\.com$"
       ]
     }
   ]

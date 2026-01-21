@@ -5,12 +5,13 @@
       "domain_suffix": [
         "3lateral.com",
         "artstation.com",
+        "battlebreakers.com",
         "capturingreality.com",
         "cubicmotion.com",
-        "battlebreakers.com",
         "eac-cdn.com",
         "easy.ac",
         "easyanticheat.net",
+        "egdownload.fastly-edge.com",
         "epicgames.com",
         "epicgames.dev",
         "epicgamescdn.com",
@@ -29,13 +30,12 @@
         "spyjinx.com",
         "twinmotion.com",
         "unrealengine.com",
-        "unrealtournament.com",
-        "egdownload.fastly-edge.com"
+        "unrealtournament.com"
       ],
       "domain_regex": [
         "^cdn\\d-epicgames-\\d+\\.file\\.myqcloud\\.com$",
-        "^epicgames-download\\d\\.akamaized\\.net$",
-        "^epicgames-download\\d-\\d+\\.file\\.myqcloud\\.com$"
+        "^epicgames-download\\d-\\d+\\.file\\.myqcloud\\.com$",
+        "^epicgames-download\\d\\.akamaized\\.net$"
       ]
     }
   ]

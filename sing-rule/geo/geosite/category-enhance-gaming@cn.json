@@ -3,12 +3,12 @@
   "rules": [
     {
       "domain_suffix": [
-        "rpglogs.cn",
+        "heavenlywind.cc",
         "ldmnq.com",
         "lsplayer.com",
-        "yeshen.com",
-        "heavenlywind.cc",
-        "steampp.net"
+        "rpglogs.cn",
+        "steampp.net",
+        "yeshen.com"
       ]
     }
   ]

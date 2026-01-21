@@ -3,6 +3,7 @@
   "rules": [
     {
       "domain_suffix": [
+        "cn-cdn1.skymansion.net",
         "sky",
         "sky.com",
         "skyassets.com",
@@ -14,8 +15,7 @@
         "skysports.fr",
         "skysports.ie",
         "skysportsonline.com",
-        "skysportsracing.com",
-        "cn-cdn1.skymansion.net"
+        "skysportsracing.com"
       ]
     }
   ]

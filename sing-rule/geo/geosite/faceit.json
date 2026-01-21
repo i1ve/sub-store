@@ -3,8 +3,8 @@
   "rules": [
     {
       "domain_suffix": [
-        "faceit.com",
-        "faceit-cdn.net"
+        "faceit-cdn.net",
+        "faceit.com"
       ]
     }
   ]

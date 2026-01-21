@@ -3,8 +3,8 @@
   "rules": [
     {
       "domain": [
-        "nvidia.tt.omtrdc.net",
-        "cn.download.nvidia.com"
+        "cn.download.nvidia.com",
+        "nvidia.tt.omtrdc.net"
       ],
       "domain_suffix": [
         "geforce.cn",
