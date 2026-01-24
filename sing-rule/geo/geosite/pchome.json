@@ -2,10 +2,7 @@
   "version": 2,
   "rules": [
     {
-      "domain": [
-        "ecapi-pchome.cdn.hinet.net",
-        "pchomeonline.com.tw"
-      ],
+      "domain": "ecapi-pchome.cdn.hinet.net",
       "domain_suffix": [
         "ecimg.tw",
         "pchome.com.tw",
