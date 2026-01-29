@@ -3,6 +3,7 @@
   "rules": [
     {
       "domain_suffix": [
+        "battleye.com",
         "bluestacks.com",
         "fflogs.com",
         "heavenlywind.cc",

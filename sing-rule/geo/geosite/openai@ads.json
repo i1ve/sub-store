@@ -4,8 +4,7 @@
     {
       "domain": [
         "browser-intake-datadoghq.com",
-        "o33249.ingest.sentry.io",
-        "openaicom.imgix.net"
+        "o33249.ingest.sentry.io"
       ]
     }
   ]
