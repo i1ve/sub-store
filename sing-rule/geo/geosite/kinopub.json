@@ -3,6 +3,7 @@
   "rules": [
     {
       "domain_suffix": [
+        "cdn-service.space",
         "gfw.ovh",
         "kino.pub",
         "kinopub.online",
