@@ -23,8 +23,17 @@
         "alibabacloud.com.my",
         "alibabacloud.com.sg",
         "alibabacloud.com.tw",
+        "alibabacloud.com",
+        "alicloud.com",
+        "analytics.tiktok.com",
         "bytedapm.com",
         "byteoversea.com",
+        "cici.com",
+        "ciciai.com",
+        "ciciaicdn.com",
+        "coze.com",
+        "dola.com",
+        "marscode.com",
         "muscdn.com",
         "musical.ly",
         "tik-tokapi.com",
@@ -50,9 +59,11 @@
         "tiktokv.us",
         "tiktokw.eu",
         "tiktokw.us",
+        "trae.ai",
         "ttlivecdn.com",
         "ttoverseaus.net",
-        "ttwstatic.com"
+        "ttwstatic.com",
+        "webnovel.com"
       ]
     }
   ]
