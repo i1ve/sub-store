@@ -2,6 +2,7 @@
   "version": 2,
   "rules": [
     {
+      "domain": "youla-web-static.mrgcdn.ru",
       "domain_suffix": [
         "boosty.to",
         "cdn-vk.ru",
@@ -51,7 +52,9 @@
         "vkuservideo.com",
         "vkuservideo.net",
         "vkuservideo.ru",
-        "vkvideo.ru"
+        "vkvideo.ru",
+        "youla.io",
+        "youla.ru"
       ]
     }
   ]
