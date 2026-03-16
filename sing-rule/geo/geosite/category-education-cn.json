@@ -2,10 +2,7 @@
   "version": 2,
   "rules": [
     {
-      "domain": [
-        "moocs.unipus.cn",
-        "study.163.com"
-      ],
+      "domain": "study.163.com",
       "domain_suffix": [
         "17zuoye.cn",
         "17zuoye.com",
@@ -114,6 +111,7 @@
         "speiyou.com",
         "sydw8.com",
         "tongxuepie.com",
+        "unipus.cn",
         "weilaiyunxiao.com",
         "winyoungreading.com",
         "x-cloud.cc",
