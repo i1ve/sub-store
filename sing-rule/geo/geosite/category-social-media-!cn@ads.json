@@ -2,22 +2,28 @@
   "version": 2,
   "rules": [
     {
-      "domain_suffix": [
+      "domain": [
         "adblogger.vk.com",
-        "ads-twitter.com",
+        "adblogger.vk.ru",
         "ads.vk.com",
         "ads.vk.ru",
+        "adv.vk.ru",
+        "advk.vk.ru",
+        "analytics.vk.ru",
+        "stats.vk-portal.net",
+        "target.vk.com"
+      ],
+      "domain_suffix": [
+        "ads-twitter.com",
+        "adv.vk.com",
         "analytics.facebook.com",
         "analytics.vk.com",
-        "analytics.vk.ru",
         "facebookads.com",
         "graph-fallback.instagram.com",
         "graph.instagram.com",
         "ms.vk.com",
         "ms.vk.ru",
         "pixel.facebook.com",
-        "stats.vk-portal.net",
-        "target.vk.com",
         "target.vk.ru",
         "vk-analytics.ru"
       ]
