@@ -76,7 +76,8 @@
         "nwcddns.cn",
         "nwcdinfosec.cn",
         "route53.cn",
-        "sagemaker.com.cn"
+        "sagemaker.com.cn",
+        "starbucks.com.cn"
       ],
       "domain_regex": [
         ".+\\.awsdns-cn-[0-9][0-9]\\.(biz|com|net|top)$",
