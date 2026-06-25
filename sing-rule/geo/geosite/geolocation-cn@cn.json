@@ -3,6 +3,9 @@
   "rules": [
     {
       "domain": [
+        "account-cn.alibabacloud.com",
+        "api.alibabacloud.com",
+        "cn.alibabacloud.com",
         "izattime.qcomgeo2.com",
         "ntp.aliyun.com",
         "ntp.tencent.com",
@@ -18,6 +21,7 @@
         "ntp5.tencent.com",
         "ntp6.aliyun.com",
         "ntp7.aliyun.com",
+        "status.alibabacloud.com",
         "time.amazonaws.cn",
         "time.izatcloud.net",
         "time.xtracloud.net",
