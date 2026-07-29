@@ -9,6 +9,7 @@
         "ip.comss.net",
         "ipv4-check-perf.radar.cloudflare.com",
         "ipv6-check-perf.radar.cloudflare.com",
+        "myip.dnsomatic.com",
         "whatismyip.akamai.com"
       ],
       "domain_suffix": [
@@ -108,6 +109,7 @@
         "ipquery.io",
         "ipregistry.co",
         "iproyal.com",
+        "ipsimple.org",
         "ipstack.com",
         "ipv4-internet.yandex.net",
         "ipv4.internet.yandex.net",
@@ -136,6 +138,7 @@
         "myiplookup.com",
         "mylocation.org",
         "nodedata.io",
+        "nossl.sh",
         "osint.sh",
         "proxycheck.io",
         "realip.cc",
